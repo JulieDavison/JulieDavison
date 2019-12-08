@@ -179,10 +179,10 @@
           <div class="section-title">
             <h2 class="head-title">Portfolio</h2>
             <hr class="botm-line">
-            <p class="sec-para">App & Github Links</p>
+            <p class="sec-para">Repositories</p>
             <p><a href="https://github.com/JulieDavison/Word-Game">Space Word Game</a></p>
             <p><a href="https://github.com/JulieDavison/TriviaGame">Trivia Game</a></p>
-            <p><a href="https://github.com/JulieDavison/News-Scrape">Movie List</a></p>
+            <p><a href="https://github.com/JulieDavison/Train-Schedule">Train Schedule App</a></p>
             <p><a href="https://github.com/JulieDavison/MemoryClickGame">Emoji Memory Game</a></p>
             <p><a href="https://github.com/JulieDavison/Daily-Reminder-Project">Daily Reminder App</a></p>
             <p><a href="https://github.com/JulieDavison/GameDar">Sports Game Locator</a></p>
@@ -205,7 +205,7 @@
           </div>
           <div class="col-md-4 col-sm-6 padding-right-zero">
             <div class="portfolio-box design">
-              <a href="https://immense-bastion-83964.herokuapp.com/">
+              <a href="https://juliedavison.github.io/Train-Schedule/">
                 <img src="img/port03.jpg" alt="" class="img-responsive">
               </a>
             </div>
@@ -244,17 +244,50 @@
           <div class="section-title">
             <h2 class="head-title black">Contact Me</h2>
             <hr class="botm-line">
-            <p class="sec-para black">Please Contact Me with LinkedIn or email.</p>
-            <p class="sec-para black">Message Me is Under Construction.</p>
+            <!-- <p class="sec-para black">Email Me</p> -->
+            <p class="sec-para black"><span aria-hidden="true" class="fa fa-envelope"></span>Email: <a href=""
+                class="link-dec">davison.jules@gmail.com</a></p>
+
           </div>
         </div>
         <div class="col-md-12 col-sm-12">
           <div class="col-md-4 col-sm-6" style="padding-left:0px;">
-            <h3 class="cont-title">Message Me <i class="fas fa-tools"></i></h3>
+            <h3 class="cont-title">Message Me</h3>
             <div id="sendmessage">Your message has been sent. Thank you!</div>
             <div id="errormessage"></div>
             <div class="contact-info">
-              <form action="" method="post" role="form" class="contactForm">
+              <form action="https://webto.salesforce.com/servlet/servlet.WebToLead?encoding=UTF-8" method="POST">
+
+                <input type=hidden name="oid" value="00D6g0000022u6l">
+                <input type=hidden name="retURL" value="https://juliedavison.github.io/JulieDavison/">
+
+                <!--  ----------------------------------------------------------------------  -->
+                <!--  NOTE: These fields are optional debugging elements. Please uncomment    -->
+                <!--  these lines if you wish to test in debug mode.                          -->
+                <!--  <input type="hidden" name="debug" value=1>                              -->
+                <!--  <input type="hidden" name="debugEmail"                                  -->
+                <!--  value="davison.jules@gmail.com">                                        -->
+                <!--  ----------------------------------------------------------------------  -->
+
+                <label for="first_name">First Name</label><input id="first_name" maxlength="40" name="first_name"
+                  size="20" type="text" class="form-control" /><br>
+
+                <label for="last_name">Last Name</label><input id="last_name" maxlength="80" name="last_name" size="20"
+                  type="text" class="form-control" /><br>
+
+                <label for="email">Email</label><input id="email" maxlength="80" name="email" size="20" type="text"
+                  class="form-control" /><br>
+
+                <!-- Subject:<input id="00N6g000008G1BC" maxlength="30" name="00N6g000008G1BC" size="20" type="text" class="form-control"/><br> -->
+
+                <label for="message">Message:</label><textarea id="00N6g000008G1BR" name="00N6g000008G1BR" type="text"
+                  wrap="soft" class="form-control"></textarea><br>
+
+                <input type="submit" name="submit" class="form-control" style="background-color: #FFD34E;">
+
+              </form>
+
+              <!-- <form action="" method="post" role="form" class="contactForm">
                 <div class="form-group">
                   <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
                     data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
@@ -278,7 +311,7 @@
                   <div class="validation"></div>
                 </div>
                 <button type="submit" class="btn btn-send">Send</button>
-              </form>
+              </form> -->
             </div>
 
           </div>
@@ -289,8 +322,6 @@
                 Italy</p> -->
               <!-- <p class="white"><span aria-hidden="true" class="fa fa-phone"></span>Phone: 0039 333 12 68 347</p> -->
 
-              <p class="white"><span aria-hidden="true" class="fa fa-envelope"></span>Email: <a href=""
-                  class="link-dec">davison.jules@gmail.com</a></p>
               <p class="white"><span aria-hidden="true" class="fab fa-linkedin"></span>LinkedIn: <a
                   href="https://www.linkedin.com/in/davisonjules/" class="link-dec">linkedin/davisonjules</a></p>
               <p class="white"><span aria-hidden="true" class="fab fa-github-square"></span>Github: <a
